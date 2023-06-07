@@ -4,9 +4,9 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-use App\Http\Controllers\My\Test01Controller;
+use App\Http\Controllers\Test\Test01\Test01Controller;
 
-class Test01 extends TestCase
+class Test01Test extends TestCase
 {
     public function test_that_true_is_true(): void
     {

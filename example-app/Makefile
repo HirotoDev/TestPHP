@@ -1,10 +1,16 @@
 .PHONY: test
 
-make_project:
+ROOTDIR = example-app
 
 make_migration:
+	cd $(ROOTDIR)
+	@read -p "Enter migration name: " value
+	{
+		php artisan make:migration $$value;
+	}
 
 make_test:
+	
 
 make_model:
 
@@ -19,6 +25,7 @@ clear_cache:
 clear_logs:
 
 show_logs:
+
 
 
 ###########################################################TEST################################################################
