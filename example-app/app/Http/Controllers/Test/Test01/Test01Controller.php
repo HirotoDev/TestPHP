@@ -19,5 +19,7 @@ class Test01Controller extends Controller
     public function test()
     {
         return true;
+
+        
     }
 }
